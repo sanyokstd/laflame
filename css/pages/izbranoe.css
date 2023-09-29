@@ -1,0 +1,28 @@
+.izb-add-cart {
+  margin-top: 13px; }
+  .izb-add-cart button {
+    padding: 0;
+    height: 28px;
+    font-size: 12px;
+    width: 160px;
+    font-weight: bold; }
+
+@media (max-width: 559px) {
+  .izb-add-cart button {
+    width: 202px; }
+  .izb-add-cart {
+    margin-top: 5px; } }
+
+@media (max-width: 374px) {
+  .izb-add-cart button {
+    width: 146px; }
+  .izb-add-cart {
+    margin-bottom: 10px; } }
+
+.cart-empty.izbranoe {
+  width: 274px; }
+  .cart-empty.izbranoe a {
+    max-width: 202px;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=izbranoe.css.map */

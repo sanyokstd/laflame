@@ -1,0 +1,332 @@
+.first_black_section {
+  height: 100vh;
+  background-size: cover;
+  background-color: #1F1F1F;
+  color: #fff;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s; }
+  .first_black_section .wrap2 {
+    height: 100%; }
+
+.polit-block {
+  max-width: 587px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: var(--bebas);
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 120px; }
+  .polit-block span {
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    display: block;
+    margin-top: 4px; }
+
+.polit-sec {
+  margin-bottom: 174px; }
+
+.polit-sec__wrap {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-top: 91px; }
+
+.polit-sec__block {
+  max-width: 521px;
+  padding-top: 5px;
+  margin-right: 60px; }
+
+.polit-sec__t {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: var(--bebas);
+  margin-bottom: 8px; }
+
+.polit-sec__text {
+  font-size: 20px;
+  line-height: 30px; }
+
+.polist-sec__img {
+  width: 49%; }
+
+.polist-sec__img.polist-sec__img2 {
+  margin-top: -170px; }
+
+@media (max-width: 1024px) {
+  .first_black_section {
+    height: 526px; } }
+
+@media (max-width: 767px) {
+  .polit-block {
+    padding-bottom: 77px;
+    font-size: 25px;
+    line-height: 25px;
+    max-width: 288px;
+    margin-left: 0;
+    margin-right: auto; }
+    .polit-block span {
+      font-size: 16px;
+      line-height: 16px; }
+  .first_black_section {
+    background-position: top right -130px; } }
+
+@media (max-width: 1200px) {
+  .polist-sec__img {
+    width: 45%; }
+  .polit-sec__block {
+    max-width: 52%;
+    margin-right: 15px; }
+  .polist-sec__img.polist-sec__img2 {
+    margin-top: -70px; } }
+
+@media (max-width: 991px) {
+  .polit-sec__block {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    padding-right: 50px;
+    margin-bottom: 27px; }
+  .polist-sec__img {
+    width: 50%;
+    order: 2;
+    padding-left: 8px;
+    padding-right: 0; }
+  .polist-sec__img.polist-sec__img2 {
+    order: 1;
+    margin-top: 0;
+    padding-right: 8px;
+    padding-left: 0; }
+  .polit-sec__wrap {
+    padding-top: 67px; }
+  .polit-sec__text {
+    max-width: 575px; } }
+
+@media (max-width: 767px) {
+  .polit-sec__t {
+    font-size: 25px;
+    line-height: 25px; }
+  .polit-sec__text {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 275px; }
+    .polit-sec__text br {
+      display: none; }
+  .polit-sec__block {
+    margin-bottom: 17px; }
+  .polit-sec {
+    margin-bottom: 115px; } }
+
+.polit-slider-sec .polit-sec__t {
+  max-width: 480px; }
+
+.polit-slider-sec .swiper-button-next, .polit-slider-sec .swiper-button-prev {
+  color: #000; }
+
+.polit-slider-sec .swiper-button-next.swiper-button-disabled, .polit-slider-sec .swiper-button-prev.swiper-button-disabled {
+  display: none; }
+
+.polit-slider-sec .swiper-button-next {
+  right: 33px; }
+
+.polit-slider-sec .swiper-button-prev {
+  left: 33px; }
+
+.polit-slider-sec-slide {
+  display: flex;
+  align-items: flex-start; }
+  .polit-slider-sec-slide img {
+    width: 50%;
+    margin-right: 84px; }
+  .polit-slider-sec-slide div {
+    flex: 1; }
+  .polit-slider-sec-slide p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 18px;
+    margin-top: 0; }
+
+.polit-decor-text {
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 110px;
+  font-family: var(--bebas);
+  color: #EFEFEF;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.polit-slider-sec {
+  margin-bottom: 255px; }
+
+.polit-question {
+  position: relative;
+  background-size: cover;
+  background-position: top center;
+  padding-top: 100px;
+  padding-bottom: 78px;
+  color: #fff; }
+
+.polit-question:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1; }
+
+.polit-question .wrap2 {
+  position: relative;
+  z-index: 2; }
+
+.tabs__w {
+  opacity: 0;
+  transition: 0.3s all;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 469px; }
+  .tabs__w p {
+    font-size: 25px;
+    line-height: 25px;
+    /* or 100% */
+    letter-spacing: 0.04em;
+    margin-top: 0;
+    margin-bottom: 20px; }
+
+.tabs__t {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  max-width: 475px;
+  font-family: var(--bebas);
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s all; }
+
+.tabs__t:hover {
+  opacity: 1; }
+
+.tabs__item {
+  margin-bottom: 82px; }
+
+.tabs__item:last-child {
+  margin-bottom: 0; }
+
+.tabs__t:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 4px;
+  background-color: transparent;
+  top: 100%;
+  transition: 0.3s all;
+  width: 0; }
+
+.tabs__item.active .tabs__t {
+  opacity: 1; }
+
+.tabs__item.active .tabs__t:before {
+  background-color: #fff;
+  width: 70%; }
+
+.tabs__item.active .tabs__w {
+  opacity: 1;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s; }
+
+@media (max-width: 1300px) {
+  .polit-slider-sec-slide {
+    padding-left: 50px;
+    padding-right: 50px; }
+  .polit-slider-sec .swiper-button-next {
+    right: 10px; }
+  .polit-slider-sec .swiper-button-prev {
+    left: 10px; } }
+
+@media (max-width: 991px) {
+  .polit-slider-sec {
+    margin-bottom: 75px; }
+  .polit-slider-sec-slide p {
+    font-size: 16px;
+    line-height: 20px; } }
+
+@media (max-width: 767px) {
+  .polit-slider-sec-slide {
+    flex-direction: column; }
+    .polit-slider-sec-slide img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 27px; }
+    .polit-slider-sec-slide div {
+      flex: auto;
+      max-width: 300px;
+      margin-left: -35px; }
+  .polit-decor-text {
+    font-size: 24.7vw;
+    line-height: 1; }
+  .polit-slider-sec .polit-sec__t {
+    max-width: 137px; }
+  .polit-slider-sec .swiper-button-next:after, .polit-slider-sec .swiper-button-prev:after {
+    font-size: 16px; }
+  .polit-slider-sec-slide {
+    padding-right: 35px;
+    padding-left: 35px; }
+  .polit-slider-sec .swiper-button-next, .polit-slider-sec .swiper-button-prev {
+    top: 23vw; } }
+
+@media (max-width: 991px) {
+  .tabs__w {
+    position: initial;
+    display: none;
+    transform: translate(0);
+    margin-top: 21px; }
+  .tabs__item.active .tabs__w {
+    display: block; }
+  .polit-question {
+    background-size: 1900px;
+    background-position: top right 35%; } }
+
+@media (max-width: 767px) {
+  .polit-question {
+    padding-top: 42px;
+    padding-bottom: 70px; }
+  .tabs__item {
+    margin-bottom: 60px; }
+  .tabs__t {
+    font-size: 20px;
+    line-height: 30px; }
+  .tabs__w p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em; } }
+
+.black__footer {
+  background-color: #1F1F1F; }
+  .black__footer .footer {
+    margin-top: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4); }
+  .black__footer .footer__logo path {
+    fill: #fff; }
+  .black__footer .footer__t {
+    color: #fff; }
+  .black__footer .footer ul li a {
+    color: #fff; }
+  .black__footer .f-soc path {
+    fill: #fff; }
+  .black__footer .footer ul li a:hover {
+    opacity: 0.7; }
+
+/*# sourceMappingURL=polit-cen.css.map */

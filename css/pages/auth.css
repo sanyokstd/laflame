@@ -1,0 +1,130 @@
+.auth__top {
+  max-width: 503px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 65px; }
+
+.auto__top__item {
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: var(--bebas);
+  padding-bottom: 21px;
+  padding-top: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(31, 31, 31, 0.2);
+  position: relative; }
+
+.auto__top__item:after {
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  position: absolute;
+  display: block;
+  border-bottom: 4px solid rgba(31, 31, 31, 0); }
+
+.auto__top__item.active:after {
+  border-bottom: 4px solid #1f1f1f; }
+
+.auth__block {
+  padding: 53px 86px 48px;
+  background: rgba(239, 239, 239, 0.2);
+  max-width: 438px;
+  margin: 0 auto; }
+
+.auth__item {
+  display: none; }
+
+.auth__item.active {
+  display: block; }
+
+.auth__block__wrap {
+  width: 266px;
+  margin: 0 auto; }
+
+.auth__block__wrap input {
+  width: 100%;
+  margin-bottom: 28px;
+  letter-spacing: 0.02em;
+  font-size: 14px; }
+
+.auth__block__wrap button {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 16px;
+  height: 36px;
+  font-weight: bold;
+  margin-bottom: 12px; }
+
+.auth__block__wrap a {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: rgba(31, 31, 31, 0.6); }
+
+.auth__block__wrap .checkbox {
+  display: flex;
+  color: rgba(31, 31, 31, 0.6);
+  margin-top: 5px; }
+  .auth__block__wrap .checkbox a {
+    display: inline;
+    color: inherit;
+    text-decoration: underline; }
+  .auth__block__wrap .checkbox span {
+    margin-top: 5px; }
+
+.auth__pass {
+  max-width: 432px;
+  margin: 0 auto; }
+
+.auth__pass__t {
+  font-size: 25px;
+  line-height: 30px;
+  font-family: var(--bebas);
+  text-align: center;
+  margin-bottom: 16px; }
+
+.auth__pass__text {
+  font-size: 16px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: rgba(31, 31, 31, 0.6);
+  margin-bottom: 28px; }
+
+.auth__block.auth__block--pass {
+  padding: 28px 86px; }
+  .auth__block.auth__block--pass button {
+    margin-top: 0; }
+
+@media (max-width: 559px) {
+  .auto__top__item {
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 12px; }
+  .auth__block {
+    padding: 25px 45px; }
+  .auth__block.auth__block--pass {
+    padding: 25px 45px; }
+  .auth__block__wrap {
+    width: 100%;
+    max-width: 222px; }
+  .auth__block__wrap input {
+    margin-bottom: 17px;
+    font-size: 12px; }
+  .auth__top {
+    margin-bottom: 44px; }
+  .auth__pass__t {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 12px; }
+  .auth__pass__text {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 19px; }
+  .auth__pass {
+    max-width: 269px; } }
+
+/*# sourceMappingURL=auth.css.map */

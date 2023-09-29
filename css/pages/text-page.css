@@ -1,0 +1,37 @@
+.text-page h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 18px;
+  margin-bottom: 14px;
+  margin-top: 48px;
+  font-family: var(--bebas); }
+
+.text-page p {
+  font-size: 16px;
+  line-height: 18px;
+  /* or 112% */
+  letter-spacing: 0.02em;
+  color: rgba(31, 31, 31, 0.7);
+  margin-bottom: 15px; }
+
+.text-page ul li {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  color: rgba(31, 31, 31, 0.7); }
+
+.text-page ul {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+@media (max-width: 767px) {
+  .text-page h2 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 20px; }
+  .text-page p {
+    font-size: 12px;
+    line-height: 14px; } }
+
+/*# sourceMappingURL=text-page.css.map */
